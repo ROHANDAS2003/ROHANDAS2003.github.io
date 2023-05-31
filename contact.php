@@ -5,8 +5,8 @@
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
 		$from = 'Demo Contact Form'; 
-		$to = 'example@bootstrapbay.com'; 
-		$subject = 'Message from Contact Demo ';
+		$to = 'rd555217@gmail.com'; 
+		$subject = "Message from $name";
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
